@@ -13,6 +13,13 @@ main{
     padding: 20px;
 }
 
+a{
+    text-decoration: none;
+}
+.top-title{
+    color: #562EFF;
+    font-size: 24px;
+}
 
 .player-img img{
     width: 56px;
@@ -30,4 +37,33 @@ main{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.blog-info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.blogs{
+    margin-bottom: 22px;
+}
+
+.blog-img img{
+    width: 177px;
+    height: 117px;
+}
+.blog-img{
+    margin-right: 10px;
+}
+.blog-detail{
+    padding: 0 15px;
+}
+
+.blogs{
+    display: flex;
 }
