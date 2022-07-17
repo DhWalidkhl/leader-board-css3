@@ -3,7 +3,7 @@ body{
 }
 main{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -11,6 +11,7 @@ main{
     width: 870px;
     background: #ffff;
     padding: 20px;
+    border-radius: 5px;
 }
 
 a{
@@ -66,4 +67,37 @@ a{
 
 .blogs{
     display: flex;
+}
+
+.latest-course{
+    margin-top: 20px;
+}
+
+
+
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.course-thumbnail{
+    margin-bottom: 10px;
+}
+.course-thumbnail img{
+    width: 224px;
+    height: 104px;
+}
+.course-detail{
+    padding: 15px;
+    box-shadow: 1px 5px 10px rgba(0,0,0,.2);
+    margin-right: 10px;
+}
+.course-detail :nth-child(3){
+    margin-right: 0;
+}
+.course-title h3{
+    margin: 0;
+    padding: 0;
+}
+.course-title a{
+    padding-top: 10px;
 }
